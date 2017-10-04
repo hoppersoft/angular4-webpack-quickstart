@@ -1,0 +1,52 @@
+{
+  "name": "webpack-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --open --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/animations": "^4.4.4",
+    "@angular/common": "^4.4.3",
+    "@angular/compiler": "^4.4.3",
+    "@angular/core": "^4.4.3",
+    "@angular/forms": "^4.4.3",
+    "@angular/http": "^4.4.4",
+    "@angular/platform-browser": "^4.4.3",
+    "@angular/platform-browser-dynamic": "^4.4.3",
+    "@angular/router": "^4.4.3",
+    "angular2-logger": "^0.6.0",
+    "core-js": "^2.5.1",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.54",
+    "@types/node": "^6.0.46",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.2.3",
+    "canonical-path": "0.0.2",
+    "concurrently": "^3.2.0",
+    "css-loader": "^0.28.7",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-webpack": "^2.0.4",
+    "lite-server": "^2.2.2",
+    "lodash": "^4.16.4",
+    "protractor": "~4.0.14",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "tslint": "^3.15.1",
+    "typescript": "~2.1.0",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
